@@ -37,7 +37,19 @@ class AppNavbar extends Component{
                 <NavbarBrand href="/">Home</NavbarBrand>
                 <Nav className="mr-auto" navbar>
                     <NavItem>
-                        <NavLink href="/katalog">Katalog</NavLink>
+                        <UncontrolledDropdown nav inNavbar>
+                        <DropdownToggle nav caret>
+                            Katalog
+                        </DropdownToggle>
+                            <DropdownMenu left>
+                                <DropdownItem>
+                                <NavLink href="/pria">Pria</NavLink>
+                                </DropdownItem>
+                                <DropdownItem>
+                                <NavLink href="/wanita">Wanita</NavLink>
+                                </DropdownItem>
+                            </DropdownMenu>
+                    </UncontrolledDropdown>
                     </NavItem>
                     <NavItem>
                         <NavLink href="/promo">Promo</NavLink>
@@ -45,21 +57,6 @@ class AppNavbar extends Component{
                     <NavItem>
                         <NavLink href="/about">About us</NavLink>
                     </NavItem>
-
-                    <UncontrolledDropdown nav inNavbar>
-                        <DropdownToggle nav caret>
-                            Options
-                        </DropdownToggle>
-                            <DropdownMenu right>
-                                <DropdownItem>
-                                    Option 1
-                                </DropdownItem>
-                                <DropdownItem>
-                                    Option 2
-                                </DropdownItem>
-                            </DropdownMenu>
-                    </UncontrolledDropdown>
-
                 </Nav>
                 <Button  color="primary" href="/login">Login</Button>{' '}
                 <Button color="info" href="/keranjang">Keranjang</Button>{' '}
