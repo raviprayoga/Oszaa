@@ -52,6 +52,33 @@ class AppNavbar extends Component{
                     </UncontrolledDropdown>
                     </NavItem>
                     <NavItem>
+                        <UncontrolledDropdown nav inNavbar>
+                        <DropdownToggle nav caret>
+                            Aksesoris
+                        </DropdownToggle>
+                            <DropdownMenu left>
+                                <DropdownItem>
+                                <NavLink href="#">Sepatu</NavLink>
+                                </DropdownItem>
+                                <DropdownItem>
+                                <NavLink href="#">Tas</NavLink>
+                                </DropdownItem>
+                                <DropdownItem>
+                                <NavLink href="#">Topi</NavLink>
+                                </DropdownItem>
+                                <DropdownItem>
+                                <NavLink href="#">Scarves</NavLink>
+                                </DropdownItem>
+                                <DropdownItem>
+                                <NavLink href="#">Kaca Mata</NavLink>
+                                </DropdownItem>
+                                <DropdownItem>
+                                <NavLink href="#">Jam Tangan</NavLink>
+                                </DropdownItem>
+                            </DropdownMenu>
+                    </UncontrolledDropdown>
+                    </NavItem>
+                    <NavItem>
                         <NavLink href="/promo">Promo</NavLink>
                     </NavItem>
                     <NavItem>
