@@ -6,14 +6,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 //pages
-import HomePage from "./components/viewsUser/HomePage.js";
+import HomePage from "./components/viewsUser/HomePage/HomePage.js";
 import KatalogPage from "./components/viewsUser/KatalogPage.js";
 import PromoPage from "./components/viewsUser/PromoPage.js";
 import AboutPage from "./components/viewsUser/AboutPage.js";
 import KatalogPriaPage from "./components/viewsUser/KatalogPriaPage.js";
 import KatalogWanitaPage from "./components/viewsUser/KatalogWanitaPage.js";
 
-function App() {
+function App() { 
   return (
     //<div className="App">
       //<AppNavbar/>
