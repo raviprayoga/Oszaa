@@ -52,6 +52,11 @@
   }
  
   /*Navbar CSS*/
+  
+  .navbar li a:hover{
+      border-top: 2px solid #09c;
+      padding-top: 0.4rem;
+  }
   .cari{
       margin-right: 5vw;
   }
@@ -136,8 +141,8 @@
     text-decoration: none;
     color: white;
 }
-.footer li a:hover, .navbar li a:hover{
-    border-top: 2px solid #09c;
+.footer li a:hover{
+    
 }
 .oszaa-footer{
     letter-spacing: 0.3rem;
