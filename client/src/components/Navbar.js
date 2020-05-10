@@ -49,16 +49,33 @@ class AppNavbar extends Component{
                         <DropdownToggle nav caret >
                             Options
                         </DropdownToggle>
-                            <DropdownMenu right>
+                            <DropdownMenu left>
                                 <DropdownItem>
-                                    Option 1
+                                <NavLink href="#">Sepatu</NavLink>
                                 </DropdownItem>
                                 <DropdownItem>
-                                    Option 2
+                                <NavLink href="#">Tas</NavLink>
+                                </DropdownItem>
+                                <DropdownItem>
+                                <NavLink href="#">Topi</NavLink>
+                                </DropdownItem>
+                                <DropdownItem>
+                                <NavLink href="#">Scarves</NavLink>
+                                </DropdownItem>
+                                <DropdownItem>
+                                <NavLink href="#">Kaca Mata</NavLink>
+                                </DropdownItem>
+                                <DropdownItem>
+                                <NavLink href="#">Jam Tangan</NavLink>
                                 </DropdownItem>
                             </DropdownMenu>
                     </UncontrolledDropdown>
-
+                    <NavItem>
+                        <NavLink href="/promo">Promo</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink href="/about">About us</NavLink>
+                    </NavItem>
                 </Nav>
                 <Form inline className="cari">
                     <FormControl type="text" placeholder="Search" style={{width:'15vw'}} />

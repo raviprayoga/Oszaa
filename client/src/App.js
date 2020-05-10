@@ -14,8 +14,10 @@ import PromoPage from "./components/views/PromoPage.js";
 import AboutPage from "./components/views/AboutPage.js";
 import Login from "./components/views/Login";
 import Regis from "./components/views/Regis";
+import KatalogPriaPage from "./components/viewsUser/KatalogPriaPage.js";
+import KatalogWanitaPage from "./components/viewsUser/KatalogWanitaPage.js";
 
-function App() {
+function App() { 
   return (
     //<div className="App">
       //<AppNavbar/>
@@ -30,6 +32,8 @@ function App() {
         <Route exact path="/about" component={AboutPage} />
         <Route exact path="/login" component={Login} />
         <Route exact path="/regis" component={Regis} />
+        <Route exact path="/pria" component={KatalogPriaPage} />
+        <Route exact path="/wanita" component={KatalogWanitaPage} />
       </Switch>
     </Suspense>
   );
