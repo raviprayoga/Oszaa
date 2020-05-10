@@ -47,7 +47,7 @@ class AppNavbar extends Component{
 
                     <UncontrolledDropdown nav inNavbar>
                         <DropdownToggle nav caret >
-                            Options
+                            Kategori
                         </DropdownToggle>
                             <DropdownMenu left>
                                 <DropdownItem>
@@ -70,12 +70,7 @@ class AppNavbar extends Component{
                                 </DropdownItem>
                             </DropdownMenu>
                     </UncontrolledDropdown>
-                    <NavItem>
-                        <NavLink href="/promo">Promo</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href="/about">About us</NavLink>
-                    </NavItem>
+                    
                 </Nav>
                 <Form inline className="cari">
                     <FormControl type="text" placeholder="Search" style={{width:'15vw'}} />

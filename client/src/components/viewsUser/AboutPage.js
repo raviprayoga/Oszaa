@@ -1,12 +1,23 @@
 import React from 'react';
+import { MDBRow, MDBCol } from "mdbreact";
+
 
 class AboutPage extends React.Component {
 
     render(){
         return(
-            <div>
-                <h1>Selamat Datang di Halaman About Us</h1>
+            <div className="back">
+                <MDBRow className="">
+                <MDBCol md="">
+                <img
+                        className="d-block w-100"
+                        src="./images/back_about.jpg"
+                        alt=""
+                    />
+                </MDBCol>
+                </MDBRow>
             </div>
+            
         );
     }
 }

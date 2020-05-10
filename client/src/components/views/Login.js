@@ -32,8 +32,8 @@ class Login extends React.Component {
 
                         <button type="submit" className="btn btn-primary center-block">Submit</button>
                         <p className="forgot-password text-center">
-                                <a href="/lupa-pass">Forget password?</a> 
-                                <a href="/regis">Create acount</a>
+                                <a href="/lupa-pass" style={{fontWeight:'bold'}}>Forget password?</a> 
+                                <a href="/regis" style={{fontWeight:'bold'}}>Create acount</a>
                         </p>
                         <br></br>
                     </form>

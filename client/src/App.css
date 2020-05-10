@@ -70,13 +70,9 @@
     background-size: cover;
     z-index: 1;
   }
-  .ling{
-    width: 200px;
-	height: 200px;
-	background: #dac52c;
-	border-radius: 100%;
-  }
- 
+  
+
+ /*Home CSS*/
 .homepage{
     overflow: hidden;
 }

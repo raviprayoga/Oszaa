@@ -8,10 +8,10 @@ import './App.css';
 
 
 //pages
-import HomePage from "./components/views/HomePage.js";
-import KatalogPage from "./components/views/KatalogPage.js";
-import PromoPage from "./components/views/PromoPage.js";
-import AboutPage from "./components/views/AboutPage.js";
+import HomePage from "./components/viewsUser/HomePage/HomePage.js";
+import KatalogPage from "./components/viewsUser/KatalogPage.js";
+import PromoPage from "./components/viewsUser/PromoPage.js";
+import AboutPage from "./components/viewsUser/AboutPage.js";
 import Login from "./components/views/Login";
 import Regis from "./components/views/Regis";
 import KatalogPriaPage from "./components/viewsUser/KatalogPriaPage.js";
