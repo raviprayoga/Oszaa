@@ -89,21 +89,17 @@ class HomePage extends React.Component {
                     <CardGroup>
                     <Card className="kategori-card1">
                     <Card.Img variant="left" src="./images/sepatu1.jpg" />
-                    <Card.Body className="kategori-card-body2">
-                    </Card.Body>
                     </Card>
                     <Card className="kategori-card1">
-                    <Card.Body className="kategori-card-body2 sepatu-home">
+                    <Card.Body className="kategori-card-body1 sepatu-home">
                         <Card.Title><h1 className="aksesoris-home">Sepatu</h1></Card.Title>
                     </Card.Body>
                     </Card>
                     <Card className="kategori-card1">
                     <Card.Img variant="left" src="./images/kacamata1.jpg" />
-                    <Card.Body className="kategori-card-body2">
-                    </Card.Body>
                     </Card>
                     <Card className="kategori-card1">
-                    <Card.Body className="kategori-card-body2 km-home">
+                    <Card.Body className="kategori-card-body1 km-home">
                         <Card.Title><h1 className="aksesoris-home">Kaca Mata</h1></Card.Title>
                     </Card.Body>
                     </Card>
@@ -120,8 +116,6 @@ class HomePage extends React.Component {
                     </Card>
                     <Card className="kategori-card2">
                     <Card.Img variant="left" src="./images/tas1.jpg" />
-                    <Card.Body className="kategori-card-body2">
-                    </Card.Body>
                     </Card>
                     <Card className="kategori-card2">
                     <Card.Body className="kategori-card-body2 topi-home">
@@ -130,8 +124,6 @@ class HomePage extends React.Component {
                     </Card>
                     <Card className="kategori-card2">
                     <Card.Img variant="left" src="./images/topi1.jpg" />
-                    <Card.Body className="kategori-card-body2">
-                    </Card.Body>
                     </Card>
                     </CardGroup>
                     </Col>   

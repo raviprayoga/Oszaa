@@ -11,7 +11,6 @@
     letter-spacing: 1rem;
 }
 .kategori-home{
-    display: block;
     text-align: center;
 }
 .kategori-card{
@@ -100,4 +99,28 @@
 }
 .btn-ak-home{
     margin-top: 3rem;
+}
+.aksesoris-g-home{
+    position: relative;
+}
+.kategori-card-body1, .kategori-card-body2{
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    height: 17rem;
+    width: 100%;
+}
+.kategori-card-body1:hover, .kategori-card-body2:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.kategori-card-body1:hover{
+    width: 300%;
 }
