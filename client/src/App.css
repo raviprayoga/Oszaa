@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+* {
+    
+  box-sizing: border-box;
+}
+
+
+/*Login CSS*/
+.box-form{
+    
+    padding-top: 8vw;
+    padding-left: 15%;
+    width: 80vw;
+}
+.dasar{
+    background-color: #A77AD4;
+    height: max-content;
+    padding-bottom: 8vw;
+}
+.form {
+  background: #D9BAF6 ;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: max-content;
+  text-align: center;
+  padding-top: 5vw;
+  border-radius: 20px;
+}
+.form-control{
+    margin-left: 23vw;
+    text-align: center;
+    width: 20vw;
+}
+  
+  .forgot-password,
+  .forgot-password a {
+    text-align: right;
+    font-size: 13px;
+    padding-top: 30px;
+    color: #ECF3E8;
+    margin: 0;
+  }
+  
+  .forgot-password a {
+    color: #ECF3E8;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    
+  }
+  .btn{
+      background-color: #ECF3E8;
+      color: black;
+      width: auto;
+  }
+ 
+  /*Navbar CSS*/
+  .cari{
+      margin-right: 5vw;
+  }
+  .login{
+      margin-right: 1vw;
+  }
+
+  /* about css*/
+  .back{
+    background-image: url("https://cdn.pixabay.com/photo/2017/06/21/20/51/tshirt-2428521_1280.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  .ling{
+    width: 200px;
+	height: 200px;
+	background: #dac52c;
+	border-radius: 100%;
+  }
+ 
