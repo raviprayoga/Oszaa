@@ -1,6 +1,7 @@
 import React , {Suspense} from 'react';
 import AppNavbar from './components/Navbar';
 import { Route, Switch } from "react-router-dom";
+import { Map, GoogleApiWrapper, InfoWindow, Marker } from 'google-maps-react';
 
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import './App.css';
