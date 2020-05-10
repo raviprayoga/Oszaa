@@ -1,5 +1,133 @@
+
+
+
+/*Login CSS*/
+.box-form{
+    
+    padding-top: 8vw;
+    padding-left: 15%;
+    width: 80vw;
+}
+.dasar{
+    background-color: #A77AD4;
+    height: max-content;
+    padding-bottom: 8vw;
+}
+.form {
+  background: #D9BAF6 ;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: max-content;
+  text-align: center;
+  padding-top: 5vw;
+  border-radius: 20px;
+}
+.form-control{
+    margin-left: 23vw;
+    text-align: center;
+    width: 20vw;
+}
+  
+  .forgot-password,
+  .forgot-password a {
+    text-align: right;
+    font-size: 13px;
+    padding-top: 30px;
+    color: #ECF3E8;
+    margin: 0;
+  }
+  
+  .forgot-password a {
+    color: #ECF3E8;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    
+  }
+  .btn{
+      background-color: #ECF3E8;
+      color: black;
+      width: auto;
+  }
+ 
+  /*Navbar CSS*/
+  .cari{
+      margin-right: 5vw;
+  }
+  .login{
+      margin-right: 1vw;
+  }
+
+  /* about css*/
+  .back{
+    background-image: url("https://cdn.pixabay.com/photo/2017/06/21/20/51/tshirt-2428521_1280.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+  
+
+ /*Home CSS*/
 .homepage{
     overflow: hidden;
+}
+.footer{
+    margin-top: 3rem;
+    background-color: #1c2331;
+    color: white;
+    padding-top: 4rem;
+}
+.footer .title, .footer .title-brands{
+    border-bottom: 2px solid #09c;
+    margin-bottom: 1.5rem;
+    width: 7rem;
+}
+.footer .title{
+    margin-left: 2.3rem;
+}
+.footer li a, .footer-copyright a{
+    color: white;
+}
+.footer li a:hover, .footer-copyright a:hover{
+    text-decoration: none;
+    color: white;
+}
+.footer li a:hover{
+    border-bottom: 1px solid #09c;
+}
+.oszaa-footer{
+    letter-spacing: 0.3rem;
+    padding-bottom: 1rem;
+}
+.alamat-footer{
+    display: flex;
+}
+.icon-footer{
+    margin-top: 0.3rem;
+}
+.alamat-footer p{
+    padding-left: 1rem;
+}
+.icon-ig-footer, .icon-twit-footer, .icon-fb-footer{
+    margin-right: 0.5rem;
+}
+.icon-ig-footer:hover, .icon-twit-footer:hover, .icon-fb-footer:hover{
+    cursor: pointer;
+}
+.icon-ig-footer:hover{
+    color: rgb(195, 42, 163);
+}
+.icon-twit-footer:hover{
+    color: #1da1f2;
+}
+.icon-fb-footer:hover{
+    color:#3b5998;
+}
+.footer-copyright{
+    background-color: rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 4rem;
 }
 .slider{
     margin-bottom: 5rem;
@@ -12,6 +140,7 @@
 }
 .kategori-home{
     text-align: center;
+    letter-spacing: 0.3rem;
 }
 .kategori-card{
     margin-right: auto;
@@ -70,15 +199,15 @@
     font-style: bold;
 }
 .btn-swall{
-    border: 1px solid gray;
+    border: 1px solid #1c2331;
     border-radius: 0.5rem;
     background-color: white;
-    padding: 0 10rem;
+    padding: 0.15rem 10rem;
     margin-bottom: 3rem;
     margin-top: 1rem;
 }
 .btn-swall:hover{
-    background-color: gray;
+    background-color: #1c2331;
     color: white;
 }
 .aksesoris-home{
