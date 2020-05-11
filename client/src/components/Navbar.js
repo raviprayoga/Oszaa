@@ -31,22 +31,28 @@ class AppNavbar extends Component{
     render(){
         return(
             <div>
-           <Navbar color="light" light expand="md">
+           <Navbar color="light" light expand="md" className="navbar">
                 <NavbarBrand href="/">Home</NavbarBrand>
                 <Nav className="mr-auto" navbar>
                     <NavItem>
-                        <NavLink href="/katalog" >Katalog</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href="/promo" >Promo</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href="/about" >About us</NavLink>
-                    </NavItem>
-
                     <UncontrolledDropdown nav inNavbar>
                         <DropdownToggle nav caret >
-                            Kategori
+                        Katalog
+                        </DropdownToggle>
+                            <DropdownMenu left>
+                                <DropdownItem>
+                                <NavLink href="#">Pria</NavLink>
+                                </DropdownItem>
+                                <DropdownItem>
+                                <NavLink href="#">Wanita</NavLink>
+                                </DropdownItem>
+                            </DropdownMenu>
+                    </UncontrolledDropdown>
+                    </NavItem>
+                    <NavItem>
+                    <UncontrolledDropdown nav inNavbar>
+                        <DropdownToggle nav caret >
+                            Aksesoris
                         </DropdownToggle>
                             <DropdownMenu left>
                                 <DropdownItem>
@@ -69,7 +75,13 @@ class AppNavbar extends Component{
                                 </DropdownItem>
                             </DropdownMenu>
                     </UncontrolledDropdown>
-                    
+                    </NavItem>
+                    <NavItem>
+                        <NavLink href="/promo" >Promo</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink href="/about" >About us</NavLink>
+                    </NavItem>
                 </Nav>
                 <Form inline className="cari">
                     <FormControl type="text" placeholder="Search" style={{width:'15vw'}} />

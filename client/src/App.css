@@ -2,11 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
 
 * {
-    
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
-
-
 /*Login CSS*/
 .box-form{
     
@@ -55,6 +52,11 @@
   }
  
   /*Navbar CSS*/
+  
+  .navbar li a:hover{
+      border-top: 2px solid #09c;
+      padding-top: 0.4rem;
+  }
   .cari{
       margin-right: 5vw;
   }
@@ -117,10 +119,7 @@
       margin-top: 2vw;
   }
 
- /*Home CSS*/
-.homepage{
-    overflow: hidden;
-}
+/* Footer */
 .footer{
     margin-top: 3rem;
     background-color: #1c2331;
@@ -143,7 +142,7 @@
     color: white;
 }
 .footer li a:hover{
-    border-bottom: 1px solid #09c;
+    
 }
 .oszaa-footer{
     letter-spacing: 0.3rem;
@@ -178,6 +177,10 @@
     text-align: center;
     padding: 1rem;
     margin-top: 4rem;
+}
+ /*Home CSS*/
+ .homepage{
+    overflow: hidden;
 }
 .slider{
     margin-bottom: 5rem;
