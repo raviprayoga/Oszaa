@@ -28,6 +28,7 @@ class AppNavbar extends Component{
                         <NavDropdown.Item className="dropdown-item" href="/wanita">Wanita</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title="Aksesoris" id="basic-nav-dropdown">
+                        <NavDropdown.Item className="dropdown-item" href="/">Semua Aksesoris</NavDropdown.Item>
                         <NavDropdown.Item className="dropdown-item" href="/">Sepatu</NavDropdown.Item>
                         <NavDropdown.Item className="dropdown-item" href="/">Tas</NavDropdown.Item>
                         <NavDropdown.Item className="dropdown-item" href="/">Topi</NavDropdown.Item>

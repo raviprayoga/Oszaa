@@ -81,8 +81,8 @@ class HomePage extends React.Component {
                     </Card>
                     </Col>
                 </Row>
-                <a href="/katalog" className="btn-swall">Lihat Semua Produk</a>
                 </Container>
+                <a href="/katalog" className="btn-swall">Lihat Semua Produk</a>
                 <h1 className="judul-kategori-home judul-aksesoris-home">Aksesoris</h1>
                 <Row>
                     <Col >
