@@ -22,7 +22,6 @@ class AppNavbar extends Component{
             isOpen: false
         }
 
-
  toggle =() => {
     this.setState({
         isOpen: !this.state.isOpen
@@ -42,10 +41,10 @@ class AppNavbar extends Component{
                         </DropdownToggle>
                             <DropdownMenu left>
                                 <DropdownItem>
-                                <NavLink href="#">Pria</NavLink>
+                                <NavLink href="/pria">Pria</NavLink>
                                 </DropdownItem>
                                 <DropdownItem>
-                                <NavLink href="#">Wanita</NavLink>
+                                <NavLink href="/wanita">Wanita</NavLink>
                                 </DropdownItem>
                             </DropdownMenu>
                     </UncontrolledDropdown>

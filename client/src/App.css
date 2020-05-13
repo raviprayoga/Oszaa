@@ -306,3 +306,24 @@
 .kategori-card-body1:hover{
     width: 300%;
 }
+
+/* Katalog CSS */
+.judul-katalog{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-style: bold;
+    text-align: center;
+}
+
+/* Promo CSS */
+.judul-promo{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-style: bold;
+    text-align: center;
+}
+
+/* Pagination CSS*/
+.pagination{
+    float: right;
+}
