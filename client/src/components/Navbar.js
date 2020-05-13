@@ -1,100 +1,54 @@
 import React, { Component } from 'react';
-import{
-    Navbar,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem
-} from 'reactstrap';
-import{
-    Form,
-    FormControl} from 'react-bootstrap';
-import{MDBBtn, MDBIcon} from 'mdbreact';
-
-
+import {Navbar, Nav, NavLink, NavDropdown, InputGroup, FormControl} from 'react-bootstrap';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 class AppNavbar extends Component{
-        state = {
-            isOpen: false
-        }
+//         state = {
+//             isOpen: false
+//         }
 
- toggle =() => {
-    this.setState({
-        isOpen: !this.state.isOpen
-    });
-}
+//  toggle =() => {
+//     this.setState({
+//         isOpen: !this.state.isOpen
+//     });
+// }
 
     render(){
         return(
-            <div>
-           <Navbar color="light" light expand="md" className="navbar">
-                <NavbarBrand href="/">Home</NavbarBrand>
-                <Nav className="mr-auto" navbar>
-                    <NavItem>
-                    <UncontrolledDropdown nav inNavbar>
-                        <DropdownToggle nav caret >
-                        Katalog
-                        </DropdownToggle>
-                            <DropdownMenu left>
-                                <DropdownItem>
-                                <NavLink href="/pria">Pria</NavLink>
-                                </DropdownItem>
-                                <DropdownItem>
-                                <NavLink href="/wanita">Wanita</NavLink>
-                                </DropdownItem>
-                            </DropdownMenu>
-                    </UncontrolledDropdown>
-                    </NavItem>
-                    <NavItem>
-                    <UncontrolledDropdown nav inNavbar>
-                        <DropdownToggle nav caret >
-                            Aksesoris
-                        </DropdownToggle>
-                            <DropdownMenu left>
-                                <DropdownItem>
-                                <NavLink href="#">Sepatu</NavLink>
-                                </DropdownItem>
-                                <DropdownItem>
-                                <NavLink href="#">Tas</NavLink>
-                                </DropdownItem>
-                                <DropdownItem>
-                                <NavLink href="#">Topi</NavLink>
-                                </DropdownItem>
-                                <DropdownItem>
-                                <NavLink href="#">Scarves</NavLink>
-                                </DropdownItem>
-                                <DropdownItem>
-                                <NavLink href="#">Kaca Mata</NavLink>
-                                </DropdownItem>
-                                <DropdownItem>
-                                <NavLink href="#">Jam Tangan</NavLink>
-                                </DropdownItem>
-                            </DropdownMenu>
-                    </UncontrolledDropdown>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href="/promo" >Promo</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href="/about" >About us</NavLink>
-                    </NavItem>
-                </Nav>
-                <Form inline className="cari">
-                    <FormControl type="text" placeholder="Search" style={{width:'15vw'}} />
-                    <MDBBtn >
-                        <MDBIcon icon="search" size="sm-lg"  />    
-                    </MDBBtn>
-                </Form>
-                <MDBBtn className="btn " type="submit" href="/login">
-                    <MDBIcon icon="sign-in-alt" size="lg"  /> Login
-                </MDBBtn>
-                <MDBBtn className="btn " type="submit">
-                    <MDBIcon icon="shopping-cart" size="lg" />
-                </MDBBtn>
+            <div className="navbar">
+                <Navbar bg="light" expand="lg" fixed="top">
+                <Navbar.Brand className="brand-nav" href="/">OSZAA</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="mr-auto">
+                    <NavLink href="/">Home</NavLink>
+                    <NavDropdown title="Katalog" id="basic-nav-dropdown">
+                        <NavDropdown.Item className="dropdown-item" href="/katalog">Semua Katalog</NavDropdown.Item>
+                        <NavDropdown.Item className="dropdown-item" href="/pria">Pria</NavDropdown.Item>
+                        <NavDropdown.Item className="dropdown-item" href="/wanita">Wanita</NavDropdown.Item>
+                    </NavDropdown>
+                    <NavDropdown title="Aksesoris" id="basic-nav-dropdown">
+                        <NavDropdown.Item className="dropdown-item" href="/">Sepatu</NavDropdown.Item>
+                        <NavDropdown.Item className="dropdown-item" href="/">Tas</NavDropdown.Item>
+                        <NavDropdown.Item className="dropdown-item" href="/">Topi</NavDropdown.Item>
+                        <NavDropdown.Item className="dropdown-item" href="/">Scarves</NavDropdown.Item>
+                        <NavDropdown.Item className="dropdown-item" href="/">Kaca Mata</NavDropdown.Item>
+                        <NavDropdown.Item className="dropdown-item" href="/">Jam Tangan</NavDropdown.Item>
+                    </NavDropdown>
+                    <NavLink href="/promo">Promo</NavLink>
+                    <NavLink href="/about">About Us</NavLink>
+                    </Nav>
+                    <InputGroup className="search-nav">
+                        <FormControl placeholder="Search"/>
+                        <InputGroup.Append>
+                        <InputGroup.Text id="basic-addon2">
+                            <a href="/"><FontAwesomeIcon icon="search" size="lg" className="icon-nav" title="search"/></a>
+                        </InputGroup.Text>
+                        </InputGroup.Append>
+                    </InputGroup>
+                    <a href="/login"><FontAwesomeIcon icon="user" size="lg" className="icon-nav login-nav" title="Login"/></a>
+                    <a href="/"><FontAwesomeIcon icon="shopping-cart" size="lg" className="icon-nav cart-nav" title="Cart"/></a>
+                </Navbar.Collapse>
             </Navbar>
         </div>
         )
@@ -102,6 +56,4 @@ class AppNavbar extends Component{
     
 }
 
-
 export default AppNavbar;
-

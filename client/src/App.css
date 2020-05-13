@@ -4,9 +4,38 @@
 * {
     box-sizing: border-box;
 }
+/* Navbar */
+.navbar{
+    height: 4rem;
+}
+.navbar a{
+    color: black !important;
+}
+.navbar a:hover{
+    color: #09c !important;
+}
+.navbar .brand-nav:hover{
+    border-top: none;
+}
+.navbar .dropdown-item:hover{
+    background-color: #09c;
+    color: white !important;
+}
+.search-nav{
+    width: 50%;
+    margin-right: 2rem;
+}
+.icon-nav{
+    color: #09c;
+}
+.icon-nav:hover{
+    color: #1c2331;
+}
+.login-nav, .cart-nav{
+    margin-right: 1rem;
+}
 /*Login CSS*/
 .box-form{
-    
     padding-top: 8vw;
     padding-left: 15%;
     width: 80vw;
@@ -50,21 +79,6 @@
       color: black;
       width: auto;
   }
- 
-  /*Navbar CSS*/
-  
-  .navbar li a:hover{
-      border-top: 2px solid #09c;
-      padding-top: 0.4rem;
-  }
-  .cari{
-      margin-right: 5vw;
-  }
-  .login{
-      margin-right: 1vw;
-  }
-
-  /* about css*/
   .back{
     height: 70%;
     width: 100%;
@@ -178,8 +192,13 @@
     padding: 1rem;
     margin-top: 4rem;
 }
+.icon-cp-footer{
+    margin-bottom: 0.3rem;
+    margin-right: 0.5rem;
+    margin-left: 0.3;
+}
  /*Home CSS*/
- .homepage{
+.homepage{
     overflow: hidden;
 }
 .slider{
@@ -194,6 +213,9 @@
 .kategori-home{
     text-align: center;
     letter-spacing: 0.3rem;
+}
+.produk-home{
+    margin-bottom: 2rem;
 }
 .kategori-card{
     margin-right: auto;
@@ -252,20 +274,21 @@
     font-style: bold;
 }
 .btn-swall{
-    border: 1px solid #1c2331;
+    border: 1px solid white;
     border-radius: 0.5rem;
     background-color: white;
     padding: 0.15rem 10rem;
-    margin-bottom: 3rem;
-    margin-top: 1rem;
 }
 .btn-swall:hover{
-    background-color: #1c2331;
+    background-color: #09c;
     color: white;
 }
 .aksesoris-home{
     padding-top: 6rem;
     color: white;
+}
+.judul-aksesoris-home{
+    margin-top: 3rem;
 }
 .sepatu-home{
     background-color:#d68318;
@@ -281,6 +304,7 @@
 }
 .btn-ak-home{
     margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 .aksesoris-g-home{
     position: relative;
