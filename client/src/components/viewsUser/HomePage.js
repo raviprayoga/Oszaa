@@ -1,5 +1,12 @@
 import React from 'react';
-import {Carousel, Container, Row, Col, Card, CardGroup, Button} from 'react-bootstrap';
+import {Carousel, 
+        Container, 
+        Row, 
+        Col, 
+        Card, 
+        CardGroup, 
+        Button
+} from 'react-bootstrap';
 
 class HomePage extends React.Component {
 

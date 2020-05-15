@@ -1,4 +1,5 @@
 import React from 'react';
+import SideNav from '../../components/Sidenav';
 import {Container, Row, Col} from 'react-bootstrap';
 import {UncontrolledDropdown, 
         DropdownToggle, 
@@ -22,94 +23,16 @@ class KatalogWanitaPage extends React.Component{
     render(){
         return(
             <div className="katalogpage">
+                <div className="judul-wanita bg-katalog">
+                    <div class="content">
+                        <h1>KATALOG</h1>
+                        <h3>WANITA</h3>
+                    </div>
+                </div>
                 <Container>
-                    <h1 className="judul-katalog">KATALOG WANITA</h1>
                     <Row>
-                        <Col>
-                            <div></div>
-                            <h5>Sort by:</h5>
-                            <UncontrolledDropdown>
-                                <DropdownToggle caret color="primary" outline>Populer</DropdownToggle>
-                                <DropdownMenu>
-                                    <DropdownItem>Populer</DropdownItem>
-                                    <DropdownItem divider/>
-                                    <DropdownItem>Terlaris</DropdownItem>
-                                </DropdownMenu>
-                            </UncontrolledDropdown>
-
-                            <FormGroup>
-                                <h5>Kategori:</h5>
-                                <FormGroup check>
-                                    <Label check>
-                                        <Input type="checkbox" />{' '}  
-                                        Kemeja
-                                    </Label>
-                                </FormGroup>
-                                <FormGroup check>
-                                    <Label check>
-                                        <Input type="checkbox" />{' '}
-                                        Kaos
-                                    </Label>
-                                </FormGroup>
-                                <FormGroup check>
-                                    <Label check>
-                                        <Input type="checkbox" />{' '}
-                                        Outter
-                                    </Label>
-                                </FormGroup>
-                                <FormGroup check>
-                                    <Label check>
-                                        <Input type="checkbox" />{' '}  
-                                        Jaket
-                                    </Label>
-                                </FormGroup>
-                                <FormGroup check>
-                                    <Label check>
-                                        <Input type="checkbox" />{' '}
-                                        Sweater
-                                    </Label>
-                                </FormGroup>
-                                <FormGroup check>
-                                    <Label check>
-                                        <Input type="checkbox" />{' '}  
-                                        Dress
-                                    </Label>
-                                </FormGroup>
-                                <FormGroup check>
-                                    <Label check>
-                                        <Input type="checkbox" />{' '}
-                                        Celana
-                                    </Label>
-                                </FormGroup>
-                                <FormGroup check>
-                                    <Label check>
-                                        <Input type="checkbox" />{' '}
-                                        Rok
-                                    </Label>
-                                </FormGroup>
-                            </FormGroup>
-
-                            <FormGroup>
-                                <h5>Harga:</h5>
-                                <FormGroup check>
-                                    <Label check>
-                                        <Input type="checkbox" />{' '}
-                                        Tampilkan semua
-                                    </Label>
-                                </FormGroup>
-                                <FormGroup check>
-                                    <Label check>
-                                        <Input type="checkbox" />{' '}
-                                        500.000 - 1.000.000
-                                    </Label>
-                                </FormGroup>
-                                <FormGroup check>
-                                    <Label check>
-                                        <Input type="checkbox" />{' '}
-                                        Dibawah 500.000
-                                    </Label>
-                                </FormGroup>
-                            </FormGroup>
+                        <Col md="2">
+                            <SideNav/>
                         </Col>
                         <Col>
 

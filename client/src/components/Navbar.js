@@ -43,12 +43,12 @@ class AppNavbar extends Component{
                         <FormControl placeholder="Search"/>
                         <InputGroup.Append>
                         <InputGroup.Text id="basic-addon2">
-                            <a href="/"><FontAwesomeIcon icon="search" size="lg" className="icon-nav" title="search"/></a>
+                            <a className="icon-nav" href="/"><FontAwesomeIcon icon="search" size="lg" title="search"/></a>
                         </InputGroup.Text>
                         </InputGroup.Append>
                     </InputGroup>
-                    <a href="/login"><FontAwesomeIcon icon="user" size="lg" className="icon-nav login-nav" title="Login"/></a>
-                    <a href="/"><FontAwesomeIcon icon="shopping-cart" size="lg" className="icon-nav cart-nav" title="Cart"/></a>
+                    <a className="icon-nav login-nav" href="/login"><FontAwesomeIcon icon="user" size="lg" title="Login"/></a>
+                    <a className="icon-nav cart-nav" href="/"><FontAwesomeIcon icon="shopping-cart" size="lg" title="Cart"/></a>
                 </Navbar.Collapse>
             </Navbar>
         </div>

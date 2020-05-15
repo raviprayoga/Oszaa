@@ -5,12 +5,21 @@ import { Map, GoogleApiWrapper, InfoWindow, Marker } from 'google-maps-react';
 import Footer from './components/Footer';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faMapMarkerAlt, faPhoneAlt, faEnvelope,faSearch, faUser, faShoppingCart, faCopyright } from '@fortawesome/free-solid-svg-icons';
-import {faInstagram, faTwitter, faFacebook} from '@fortawesome/free-brands-svg-icons';
+import {faMapMarkerAlt, 
+        faPhoneAlt, 
+        faEnvelope,
+        faSearch, 
+        faUser, 
+        faShoppingCart, 
+        faCopyright,
+        faCaretDown 
+} from '@fortawesome/free-solid-svg-icons';
+import {faInstagram, 
+        faTwitter, 
+        faFacebook
+} from '@fortawesome/free-brands-svg-icons';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import './App.css';
-
-
 
 //pages
 import HomePage from "./components/viewsUser/HomePage.js";
@@ -23,7 +32,17 @@ import KatalogPriaPage from "./components/viewsUser/KatalogPriaPage.js";
 import KatalogWanitaPage from "./components/viewsUser/KatalogWanitaPage.js";
 
 function App() { 
-  library.add(faMapMarkerAlt, faPhoneAlt, faEnvelope, faInstagram, faTwitter, faFacebook,faSearch, faUser, faShoppingCart, faCopyright);
+  library.add(faMapMarkerAlt, 
+              faPhoneAlt, 
+              faEnvelope, 
+              faInstagram, 
+              faTwitter, 
+              faFacebook,
+              faSearch, 
+              faUser, 
+              faShoppingCart, 
+              faCopyright,
+              faCaretDown);
   return (
   <div className="App">
     <Suspense fallback={(<div>Loading...</div>)}>
