@@ -26,53 +26,6 @@ class PromoPage extends React.Component{
                     <h1 className="judul-promo">PROMO OSZAA</h1>
                     <Row>
                         <Col>
-                            <div></div>
-                            <h5>Sort by:</h5>
-                            <UncontrolledDropdown>
-                                <DropdownToggle caret color="primary" outline>Populer</DropdownToggle>
-                                <DropdownMenu>
-                                    <DropdownItem>Populer</DropdownItem>
-                                    <DropdownItem divider/>
-                                    <DropdownItem>Terlaris</DropdownItem>
-                                </DropdownMenu>
-                            </UncontrolledDropdown>
-
-                            <FormGroup>
-                                <h5>Promo:</h5>
-                                <FormGroup check>
-                                    <Label check>
-                                        <Input type="checkbox" />{' '}  
-                                        Gratis Ongkir
-                                    </Label>
-                                </FormGroup>
-                                <FormGroup check>
-                                    <Label check>
-                                        <Input type="checkbox" />{' '}
-                                        Cashback
-                                    </Label>
-                                </FormGroup>
-                                <FormGroup check>
-                                    <Label check>
-                                        <Input type="checkbox" />{' '}
-                                        Diskon
-                                    </Label>
-                                </FormGroup>
-                                <FormGroup check>
-                                    <Label check>
-                                        <Input type="checkbox" />{' '}  
-                                        Grosir
-                                    </Label>
-                                </FormGroup>
-                                <FormGroup check>
-                                    <Label check>
-                                        <Input type="checkbox" />{' '}  
-                                        Ready Stock
-                                    </Label>
-                                </FormGroup>
-                            </FormGroup>
-                        </Col>
-                        <Col>
-
                         <div>
                             <Card>
                                 <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />

@@ -108,6 +108,9 @@ body{
     margin-left: 0.3;
 }
 /* Sidenav */
+.sidebar{
+    margin-right: 3rem;
+}
 .sidenav h5{
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
@@ -431,6 +434,33 @@ body{
 }
 .bg-katalog .content h1{
     font-size: 3rem;
+}
+.list-katalog{
+    margin-bottom: 2rem;
+}
+.img-katalog{
+    height: 22rem;
+}
+.text-katalog{
+    padding: 0;
+    display: flex;
+}
+.text-katalog .nama{
+    padding: 0;
+}
+.text-katalog .title{
+    padding-left: 0.5rem;
+    padding-top: 0.7rem;
+}
+.text-katalog .checked{
+    color: orange;
+}
+.text-katalog .icon-star{
+    margin-left: 0.5rem;
+}
+.text-katalog .harga{
+    padding-top: 0.7rem;
+    font-weight: bold;
 }
 /* Promo CSS */
 .judul-promo{

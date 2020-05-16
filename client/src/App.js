@@ -12,7 +12,8 @@ import {faMapMarkerAlt,
         faUser, 
         faShoppingCart, 
         faCopyright,
-        faCaretDown 
+        faCaretDown,
+        faStar 
 } from '@fortawesome/free-solid-svg-icons';
 import {faInstagram, 
         faTwitter, 
@@ -42,7 +43,8 @@ function App() {
               faUser, 
               faShoppingCart, 
               faCopyright,
-              faCaretDown);
+              faCaretDown,
+              faStar);
   return (
   <div className="App">
     <Suspense fallback={(<div>Loading...</div>)}>
