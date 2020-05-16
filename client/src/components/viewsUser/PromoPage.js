@@ -1,6 +1,7 @@
 import React from 'react';
 import {Container, CardColumns, Card, CardImg} from 'react-bootstrap';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import ModalImage from "react-modal-image";
 
 class PromoPage extends React.Component{
     render(){
@@ -13,18 +14,31 @@ class PromoPage extends React.Component{
                 </div>
                 <Container>
                     <CardColumns>
-                        <Card>
-                            <CardImg src="/images/promo1.jpg" />
-                        </Card>
-                        <Card>
-                            <CardImg src="/images/promo4.jpg" />
-                        </Card>
-                        <Card>
-                            <CardImg src="/images/promo2.jpg" />
-                        </Card>
-                        <Card>
-                            <CardImg src="/images/promo3.jpg" />
-                        </Card>
+                        <ModalImage
+                        small={"/images/promo1.jpg"}
+                        large={"/images/promo1.jpg"}
+                        className="mdl-img"
+                        /> 
+                        <ModalImage
+                        small={"/images/promo4.jpg"}
+                        large={"/images/promo4.jpg"}
+                        className="mdl-img"
+                        /> 
+                        <ModalImage
+                        small={"/images/promo3.jpg"}
+                        large={"/images/promo3.jpg"}
+                        className="mdl-img"
+                        /> 
+                        <ModalImage
+                        small={"/images/promo5.jpg"}
+                        large={"/images/promo5.jpg"}
+                        className="mdl-img"
+                        /> 
+                        <ModalImage
+                        small={"/images/promo2.jpg"}
+                        large={"/images/promo2.jpg"}
+                        className="mdl-img"
+                        /> 
                     </CardColumns>
                 </Container>
             </div>
