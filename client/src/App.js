@@ -34,7 +34,6 @@ import KatalogWanitaPage from "./components/viewsUser/KatalogWanitaPage.js";
 import KatalogIn from "./components/viewsUser/KatalogIn.js";
 
 
-
 function App() { 
   library.add(faMapMarkerAlt, 
               faPhoneAlt, 

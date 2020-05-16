@@ -53,13 +53,13 @@ class HomePage extends React.Component {
                 <div>
                 <div className="kategori-home">
                 <Container>
-                <h1 className="judul-kategori-home">Produk</h1>
+                <h1 className="judul-kategori-home"><a href="/katalog">Produk</a></h1>
                 <Row className="produk-home">
                     <Col >
                     <Card className="kategori-card">
                     <Card.Img variant="top" src="./images/katalog1.jpg" />
                     <Card.Body className="kategori-card-body">
-                        <Card.Title><h1>Dress</h1></Card.Title>
+                        <Card.Title><h1><a href="/katalog/wanita">Dress</a></h1></Card.Title>
                     </Card.Body>
                     </Card>
                     </Col>
@@ -67,7 +67,7 @@ class HomePage extends React.Component {
                     <Card className="kategori-card">
                     <Card.Img variant="top" src="./images/katalog2.jpg" />
                     <Card.Body className="kategori-card-body">
-                        <Card.Title><h1>Jeans</h1></Card.Title>
+                        <Card.Title><h1><a href="/katalog">Jeans</a></h1></Card.Title>
                     </Card.Body>
                     </Card>
                     </Col>
@@ -75,7 +75,7 @@ class HomePage extends React.Component {
                     <Card className="kategori-card">
                     <Card.Img variant="top" src="./images/katalog3.jpg" />
                     <Card.Body className="kategori-card-body">
-                        <Card.Title><h1>Kaos</h1></Card.Title>
+                        <Card.Title><h1><a href="/katalog/wanita">Kaos</a></h1></Card.Title>
                     </Card.Body>
                     </Card>
                     </Col>
@@ -83,7 +83,7 @@ class HomePage extends React.Component {
                     <Card className="kategori-card">
                     <Card.Img variant="top" src="./images/katalog4.jpg" />
                     <Card.Body className="kategori-card-body">
-                        <Card.Title><h1>Jaket</h1></Card.Title>
+                        <Card.Title><h1><a href="/katalog/pria">Jaket</a></h1></Card.Title>
                     </Card.Body>
                     </Card>
                     </Col>

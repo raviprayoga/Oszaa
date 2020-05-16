@@ -28,7 +28,7 @@ class Footer extends React.Component {
                     <h5 className="title">INFORMASI </h5>
                     <ul>
                     <li className="list-unstyled">
-                        <a href="#!">Tentang Kami</a>
+                        <a href="/about">Tentang Kami</a>
                     </li>
                     <li className="list-unstyled">
                         <a href="#!">FAQ</a>
@@ -45,16 +45,16 @@ class Footer extends React.Component {
                     <h5 className="title">PROMO</h5>
                     <ul>
                     <li className="list-unstyled">
-                        <a href="#!">Promo Ramadhan</a>
+                        <a href="/promo">Promo Ramadhan</a>
                     </li>
                     <li className="list-unstyled">
-                        <a href="#!">Diskon 35% OFF</a>
+                        <a href="/promo">Diskon 35% OFF</a>
                     </li>
                     <li className="list-unstyled">
-                        <a href="#!">Promo Gratis Ongkir</a>
+                        <a href="/promo">Promo Gratis Ongkir</a>
                     </li>
                     <li className="list-unstyled">
-                        <a href="#!">Beli 2 Gratis 1</a>
+                        <a href="/promo">Beli 2 Gratis 1</a>
                     </li>
                     </ul>
                     </Col>
@@ -62,10 +62,10 @@ class Footer extends React.Component {
                     <h5 className="title">PRODUK</h5>
                     <ul>
                     <li className="list-unstyled">
-                        <a href="#!">Katalog Pria</a>
+                        <a href="/katalog/pria">Katalog Pria</a>
                     </li>
                     <li className="list-unstyled">
-                        <a href="#!">Katalog Wanita</a>
+                        <a href="/katalog/wanita">Katalog Wanita</a>
                     </li>
                     <li className="list-unstyled">
                         <a href="#!">Aksesoris</a>

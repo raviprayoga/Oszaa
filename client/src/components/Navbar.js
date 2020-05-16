@@ -24,8 +24,8 @@ class AppNavbar extends Component{
                     <NavLink href="/">Home</NavLink>
                     <NavDropdown title="Katalog" id="basic-nav-dropdown">
                         <NavDropdown.Item className="dropdown-item" href="/katalog">Semua Katalog</NavDropdown.Item>
-                        <NavDropdown.Item className="dropdown-item" href="/pria">Pria</NavDropdown.Item>
-                        <NavDropdown.Item className="dropdown-item" href="/wanita">Wanita</NavDropdown.Item>
+                        <NavDropdown.Item className="dropdown-item" href="/katalog/pria">Pria</NavDropdown.Item>
+                        <NavDropdown.Item className="dropdown-item" href="/katalog/wanita">Wanita</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title="Aksesoris" id="basic-nav-dropdown">
                         <NavDropdown.Item className="dropdown-item" href="/">Semua Aksesoris</NavDropdown.Item>

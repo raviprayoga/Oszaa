@@ -28,6 +28,7 @@ class KatalogWanitaPage extends React.Component{
                         <Row className="list-katalog">
                             <Col md>
                                 <Card>
+                                    <a href="/katalog/detail">
                                     <CardImg top width="100%" src="/images/katalog12.jpg" className="img-katalog"/>
                                     <CardBody className="text-katalog">
                                         <Col sm="7" className="nama">
@@ -43,6 +44,7 @@ class KatalogWanitaPage extends React.Component{
                                         <CardTitle className="harga">Rp. 155.000,-</CardTitle>
                                         </Col>
                                     </CardBody>
+                                    </a>
                                 </Card>
                             </Col>
                             <Col md>
