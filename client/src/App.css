@@ -180,6 +180,7 @@ body{
   height: max-content;
   text-align: center;
   padding-top: 5vw;
+  padding-bottom: 2vw;
   border-radius: 20px;
 }
 .form-control{
@@ -208,6 +209,22 @@ body{
       color: black;
       width: auto;
   }
+  .log,
+  .log a {
+        text-align: center;
+        color: #ECF3E8;
+  }
+  
+ 
+  /*Navbar CSS*/
+  .cari{
+      margin-right: 5vw;
+  }
+  .login{
+      margin-right: 1vw;
+  }
+
+  /* about css*/
   .back{
     height: 70%;
     width: 100%;
@@ -256,6 +273,10 @@ body{
   .maps{
       margin-left: 5vw;
       margin-top: 2vw;
+
+  }
+  .map{
+      padding-bottom: 25vw;
   }
   .icon{
       margin-left: 60%;
@@ -541,10 +562,5 @@ body{
         font-size: unset;
     }
 }
+/*admin CSS*/
 
-/* for tablet */
-@media only screen and (max-width: 992px){
-    .judul-wanita .content{
-        width: 100%;
-    }
-}

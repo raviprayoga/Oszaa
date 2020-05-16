@@ -1,8 +1,5 @@
 import React , {Suspense} from 'react';
-import AppNavbar from './components/Navbar';
-import { Route, Switch } from "react-router-dom";
-import { Map, GoogleApiWrapper, InfoWindow, Marker } from 'google-maps-react';
-import Footer from './components/Footer';
+import { BrowserRouter as Router,Route, Switch } from "react-router-dom";
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {faMapMarkerAlt, 
@@ -21,17 +18,22 @@ import {faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import './App.css';
+import AppNavbar from './components/Navbar';
+import Footer from './components/Footer';
+
 
 //pages
 import HomePage from "./components/viewsUser/HomePage.js";
 import KatalogPage from "./components/viewsUser/KatalogPage.js";
 import PromoPage from "./components/viewsUser/PromoPage.js";
 import AboutPage from "./components/viewsUser/AboutPage.js";
-import Login from "./components/views/Login";
-import Regis from "./components/views/Regis";
+import Login from "./components/auth/Login";
+import Regis from "./components/auth/Regis";
 import KatalogPriaPage from "./components/viewsUser/KatalogPriaPage.js";
 import KatalogWanitaPage from "./components/viewsUser/KatalogWanitaPage.js";
 import KatalogIn from "./components/viewsUser/KatalogIn.js";
+
+
 
 function App() { 
   library.add(faMapMarkerAlt, 
@@ -47,6 +49,7 @@ function App() {
               faCaretDown,
               faStar);
   return (
+    <Router>
   <div className="App">
     <Suspense fallback={(<div>Loading...</div>)}>
       <AppNavbar />
@@ -64,7 +67,12 @@ function App() {
       <Footer />
     </Suspense>
     </div>
+    </Router>
+    
   );
 }
+
+
+
 
 export default App;
