@@ -2,8 +2,20 @@ import React , {Suspense} from 'react';
 import { BrowserRouter as Router,Route, Switch } from "react-router-dom";
 
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faMapMarkerAlt, faPhoneAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import {faInstagram, faTwitter, faFacebook} from '@fortawesome/free-brands-svg-icons';
+import {faMapMarkerAlt, 
+        faPhoneAlt, 
+        faEnvelope,
+        faSearch, 
+        faUser, 
+        faShoppingCart, 
+        faCopyright,
+        faCaretDown,
+        faStar 
+} from '@fortawesome/free-solid-svg-icons';
+import {faInstagram, 
+        faTwitter, 
+        faFacebook
+} from '@fortawesome/free-brands-svg-icons';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import './App.css';
 import AppNavbar from './components/Navbar';
@@ -23,7 +35,18 @@ import KatalogWanitaPage from "./components/viewsUser/KatalogWanitaPage.js";
 
 
 function App() { 
-  library.add(faMapMarkerAlt, faPhoneAlt, faEnvelope, faInstagram, faTwitter, faFacebook);
+  library.add(faMapMarkerAlt, 
+              faPhoneAlt, 
+              faEnvelope, 
+              faInstagram, 
+              faTwitter, 
+              faFacebook,
+              faSearch, 
+              faUser, 
+              faShoppingCart, 
+              faCopyright,
+              faCaretDown,
+              faStar);
   return (
     <Router>
   <div className="App">

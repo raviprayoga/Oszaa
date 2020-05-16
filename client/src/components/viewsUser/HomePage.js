@@ -1,5 +1,12 @@
 import React from 'react';
-import {Carousel, Container, Row, Col, Card, CardGroup, button} from 'react-bootstrap';
+import {Carousel, 
+        Container, 
+        Row, 
+        Col, 
+        Card, 
+        CardGroup, 
+        Button
+} from 'react-bootstrap';
 
 class HomePage extends React.Component {
 
@@ -47,7 +54,7 @@ class HomePage extends React.Component {
                 <div className="kategori-home">
                 <Container>
                 <h1 className="judul-kategori-home">Produk</h1>
-                <Row>
+                <Row className="produk-home">
                     <Col >
                     <Card className="kategori-card">
                     <Card.Img variant="top" src="./images/katalog1.jpg" />
@@ -81,9 +88,9 @@ class HomePage extends React.Component {
                     </Card>
                     </Col>
                 </Row>
-                <button className="btn-swall">Lihat Semua Produk</button>
                 </Container>
-                <h1 className="judul-kategori-home">Aksesoris</h1>
+                <a href="/katalog" className="btn-swall">Lihat Semua Produk</a>
+                <h1 className="judul-kategori-home judul-aksesoris-home">Aksesoris</h1>
                 <Row>
                     <Col >
                     <CardGroup>
@@ -128,7 +135,9 @@ class HomePage extends React.Component {
                     </CardGroup>
                     </Col>   
                 </Row>
-                <button className="btn-swall btn-ak-home">Lihat Semua Aksesoris</button>
+                <div className="btn-ak-home">
+                <a href="/aksesoris" className="btn-swall">Lihat Semua Aksesoris</a>
+                </div>
                 </div>
                 </div>
             </div>

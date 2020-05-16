@@ -82,7 +82,9 @@ class Footer extends React.Component {
                     </Col>
                 </Row>
             </Container>
-            <div className="footer-copyright">2020 Copyright <a href="./">Oszaa</a></div>
+            <div className="footer-copyright">
+                 Copyright <FontAwesomeIcon icon="copyright" size="xs" className="icon-cp-footer"/>
+                  2020 <a href="./">Oszaa</a></div>
         </div>
     )
 }
