@@ -75,9 +75,9 @@ class Footer extends React.Component {
                     <Col md>
                     <h5 className="title-brands">Follow us</h5>
                     <div >
-                    <FontAwesomeIcon icon={['fab', 'instagram']} size="2x" className="icon-ig-footer" />
-                    <FontAwesomeIcon icon={['fab', 'twitter']} size="2x" className="icon-twit-footer" />
-                    <FontAwesomeIcon icon={['fab', 'facebook']} size="2x" className="icon-fb-footer" />
+                        <FontAwesomeIcon icon={['fab', 'instagram']} size="2x" className="icon-ig-footer" />
+                        <FontAwesomeIcon icon={['fab', 'twitter']} size="2x" className="icon-twit-footer" />
+                        <FontAwesomeIcon icon={['fab', 'facebook']} size="2x" className="icon-fb-footer" />
                     </div>
                     </Col>
                 </Row>

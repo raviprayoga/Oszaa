@@ -25,6 +25,7 @@
   height: max-content;
   text-align: center;
   padding-top: 5vw;
+  padding-bottom: 2vw;
   border-radius: 20px;
 }
 .form-control{
@@ -53,6 +54,12 @@
       color: black;
       width: auto;
   }
+  .log,
+  .log a {
+        text-align: center;
+        color: #ECF3E8;
+  }
+  
  
   /*Navbar CSS*/
   .cari{
@@ -111,6 +118,10 @@
   .maps{
       margin-left: 5vw;
       margin-top: 2vw;
+
+  }
+  .map{
+      padding-bottom: 25vw;
   }
   .icon{
       margin-left: 60%;
@@ -303,3 +314,6 @@
 .kategori-card-body1:hover{
     width: 300%;
 }
+
+/*admin CSS*/
+
