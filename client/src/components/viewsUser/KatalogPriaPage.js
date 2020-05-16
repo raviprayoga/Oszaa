@@ -1,19 +1,10 @@
 import React from 'react';
 import SideNav from '../../components/Sidenav';
 import {Container, Row, Col} from 'react-bootstrap';
-import {UncontrolledDropdown, 
-        DropdownToggle, 
-        DropdownMenu, 
-        DropdownItem, 
-        Card, 
+import {Card, 
         CardImg, 
-        CardText, 
         CardBody,
-        CardTitle, 
-        CardSubtitle, 
-        FormGroup,
-        Label,
-        Input,
+        CardTitle,
         Pagination, 
         PaginationItem, 
         PaginationLink

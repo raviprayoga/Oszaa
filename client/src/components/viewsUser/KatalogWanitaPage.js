@@ -1,22 +1,13 @@
 import React from 'react';
 import SideNav from '../../components/Sidenav';
 import {Container, Row, Col} from 'react-bootstrap';
-import {UncontrolledDropdown, 
-        DropdownToggle, 
-        DropdownMenu, 
-        DropdownItem, 
-        Card, 
-        CardImg, 
-        CardText, 
-        CardBody,
-        CardTitle, 
-        CardSubtitle, 
-        FormGroup,
-        Label,
-        Input,
-        Pagination, 
-        PaginationItem, 
-        PaginationLink
+import {Card, 
+    CardImg, 
+    CardBody,
+    CardTitle,
+    Pagination, 
+    PaginationItem, 
+    PaginationLink
 } from 'reactstrap';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 

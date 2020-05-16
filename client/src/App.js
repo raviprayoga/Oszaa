@@ -13,7 +13,7 @@ import {faMapMarkerAlt,
         faShoppingCart, 
         faCopyright,
         faCaretDown,
-        faStar 
+        faStar, 
 } from '@fortawesome/free-solid-svg-icons';
 import {faInstagram, 
         faTwitter, 
@@ -31,6 +31,7 @@ import Login from "./components/views/Login";
 import Regis from "./components/views/Regis";
 import KatalogPriaPage from "./components/viewsUser/KatalogPriaPage.js";
 import KatalogWanitaPage from "./components/viewsUser/KatalogWanitaPage.js";
+import KatalogIn from "./components/viewsUser/KatalogIn.js";
 
 function App() { 
   library.add(faMapMarkerAlt, 
@@ -56,8 +57,9 @@ function App() {
         <Route exact path="/about" component={AboutPage} />
         <Route exact path="/login" component={Login} />
         <Route exact path="/regis" component={Regis} />
-        <Route exact path="/pria" component={KatalogPriaPage} />
-        <Route exact path="/wanita" component={KatalogWanitaPage} />
+        <Route exact path="/katalog/pria" component={KatalogPriaPage} />
+        <Route exact path="/katalog/wanita" component={KatalogWanitaPage} />
+        <Route exact path="/katalog/detail" component={KatalogIn} />
       </Switch>
       <Footer />
     </Suspense>

@@ -1,19 +1,10 @@
 import React from 'react';
 import SideNav from '../../components/Sidenav';
 import {Container, Row, Col} from 'react-bootstrap';
-import {UncontrolledDropdown, 
-        DropdownToggle, 
-        DropdownMenu, 
-        DropdownItem, 
-        Card, 
-        CardImg, 
-        CardText, 
+import {Card, 
+        CardImg,  
         CardBody,
         CardTitle, 
-        CardSubtitle, 
-        FormGroup,
-        Label,
-        Input,
         Pagination, 
         PaginationItem, 
         PaginationLink
@@ -37,6 +28,7 @@ class KatalogPage extends React.Component{
                         <Row className="list-katalog">
                             <Col md>
                                 <Card>
+                                    <a href="/katalog/detail">
                                     <CardImg top width="100%" src="/images/katalog12.jpg" className="img-katalog"/>
                                     <CardBody className="text-katalog">
                                         <Col sm="7" className="nama">
@@ -52,6 +44,7 @@ class KatalogPage extends React.Component{
                                         <CardTitle className="harga">Rp. 155.000,-</CardTitle>
                                         </Col>
                                     </CardBody>
+                                    </a>
                                 </Card>
                             </Col>
                             <Col md>

@@ -127,29 +127,31 @@ body{
     background-color: #09c;
     color: white;
 }
-.sidenav .warna{
+.warna{
     display: flex;
     margin-bottom: 0.5rem;
 }
-.sidenav .warna:hover{
+.warna:hover{
     cursor: pointer;
 }
 .sidenav .warna-item{
+    margin-right: 0.5rem;
+    border-radius: 50%;    
+}
+.warna-item{
     width: 1rem;
     height: 1rem;
-    border-radius: 50%;
-    margin-right: 0.5rem;
 }
-.sidenav .warna-item:hover{
+.warna-item:hover{
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 ;
 }
 .sidenav .white{
     border: 0.5px solid black;
 }
-.sidenav .ukuran{
+.sidenav .ukuran, .detail-katalog .ukuran{
     display: flex;
 }
-.sidenav .ukuran-item{
+.sidenav .ukuran-item, .detail-katalog .ukuran-item{
     padding: 0.5rem;
     margin-left: 0;
     background-color: transparent !important;
@@ -157,7 +159,8 @@ body{
     border: 1px solid #09c;
     box-shadow: none;
 }
-.sidenav .ukuran-item:hover{
+.sidenav .ukuran-item:hover,
+.detail-katalog .ukuran-item:hover{
     color: black;
 }
 /*Login CSS*/
@@ -451,8 +454,9 @@ body{
 .text-katalog .title{
     padding-left: 0.5rem;
     padding-top: 0.7rem;
+    color: black;
 }
-.text-katalog .checked{
+.checked{
     color: orange;
 }
 .text-katalog .icon-star{
@@ -461,6 +465,61 @@ body{
 .text-katalog .harga{
     padding-top: 0.7rem;
     font-weight: bold;
+    color: black;
+}
+/* katalog in */
+.detail-katalog{
+    margin-top: 3rem;
+}
+.detail-katalog .harga{
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+.detail-katalog img{
+    height: 27rem;
+}
+.detail-katalog .desc-katalog{
+    text-align: center;
+    padding-left: 5rem;
+}
+.desc-katalog .icon-star{
+    margin-bottom: 1rem;
+}
+.detail-katalog .warna-item{
+    margin-top: 0.25rem;
+    margin-left: 0.5rem;
+}
+.detail-katalog .ukuran-item{
+    margin-left: 0.2rem;
+    height: 2rem;
+    padding-top: 0.4rem;
+}
+.detail-katalog .ukuran p{
+    padding-top: 0.6rem;
+}
+.detail-katalog .ukuran{
+    margin-bottom: 3rem;
+}
+.detail-katalog .add-cart button{
+    background-color: #09c !important;
+}
+.detail-katalog .rincian{
+    text-align: center;
+}
+.detail-katalog .rincian-custom{
+    background-color: white;
+    border: none;
+    padding-top: 1rem;
+    width: 100%;
+}
+.detail-katalog .rincian-detail{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: left;
+}
+.detail-katalog .rincian .title{
+    box-shadow: none;
 }
 /* Promo CSS */
 .judul-promo{
