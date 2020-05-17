@@ -4,23 +4,11 @@ import {MDBIcon} from 'mdbreact';
 
 
 class Dashboard extends React.Component {
-    constructor(){
-        super();
-        this.state = {
-            title: "dashboard",
-            subTitle: "Ini halaman dashboard admin!"
-        }
-    }
-
-
-    //modal
-    
-
-    render(){
+        render(){
         return(
             <Container fluid>
                 <Row>
-                <Button variant="primary" style={{borderRadius:'20px'}}>Tambah Produk</Button>
+                <Button variant="primary" style={{borderRadius:'20px', marginTop:'30px'}}>Tambah Produk</Button>
                 <Table striped bordered hover variant="dark" >
                     <thead>
                         <tr>
