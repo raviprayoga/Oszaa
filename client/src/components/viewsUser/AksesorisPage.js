@@ -27,7 +27,7 @@ class KatalogPage extends React.Component{
                         <Row className="list-katalog">
                             <Col md>
                                 <Card>
-                                    <a href="/katalog/detail">
+                                    <a href="/aksesoris/detail">
                                     <CardImg top width="100%" src="/images/kacamata1.jpg" className="img-katalog"/>
                                     <CardBody className="text-katalog">
                                         <Col sm="7" className="nama">
