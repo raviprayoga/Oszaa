@@ -50,6 +50,7 @@ class KatalogIn extends React.Component{
                         </div>
                         <h5>Blu Swe adalah sweter yang menggunakan benang a sehingga lembut dan tidak mudah rusak</h5>
                         <h3 className="harga">Rp. 155.000</h3>
+                        <p style={{textAlign:"left"}}>Stok Tersedia: 58</p>
                         <div className="warna">
                             <p>Warna Tersedia: </p>
                             <div className="warna-item blue"> </div>

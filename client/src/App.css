@@ -545,9 +545,17 @@ body{
 .detail-katalog .rincian .title{
     box-shadow: none;
 }
+/* Aksesoris */
+.judul-aksesoris{
+    background-image: url("/images/bg-aksesoris.jpg");
+}
+.judul-aksesoris .content{
+    width: 100%;
+    padding: 10rem 0;
+}
 /* Promo CSS */
 .judul-promo{
-    background-image: url(/images/bg-promo.jpg);
+    background-image: url("/images/bg-promo.jpg");
 }
 .judul-promo .content{
     width: 100%;

@@ -27,15 +27,16 @@ class AppNavbar extends Component{
                         <NavDropdown.Item className="dropdown-item" href="/katalog/pria">Pria</NavDropdown.Item>
                         <NavDropdown.Item className="dropdown-item" href="/katalog/wanita">Wanita</NavDropdown.Item>
                     </NavDropdown>
-                    <NavDropdown title="Aksesoris" id="basic-nav-dropdown">
-                        <NavDropdown.Item className="dropdown-item" href="/">Semua Aksesoris</NavDropdown.Item>
-                        <NavDropdown.Item className="dropdown-item" href="/">Sepatu</NavDropdown.Item>
-                        <NavDropdown.Item className="dropdown-item" href="/">Tas</NavDropdown.Item>
-                        <NavDropdown.Item className="dropdown-item" href="/">Topi</NavDropdown.Item>
-                        <NavDropdown.Item className="dropdown-item" href="/">Scarves</NavDropdown.Item>
-                        <NavDropdown.Item className="dropdown-item" href="/">Kaca Mata</NavDropdown.Item>
-                        <NavDropdown.Item className="dropdown-item" href="/">Jam Tangan</NavDropdown.Item>
-                    </NavDropdown>
+                    {/* <NavDropdown title="Aksesoris" id="basic-nav-dropdown">
+                        <NavDropdown.Item className="dropdown-item" href="/aksesoris">Semua Aksesoris</NavDropdown.Item>
+                        <NavDropdown.Item className="dropdown-item" href="/aksesoris/sepatu">Sepatu</NavDropdown.Item>
+                        <NavDropdown.Item className="dropdown-item" href="/aksesoris/tas">Tas</NavDropdown.Item>
+                        <NavDropdown.Item className="dropdown-item" href="/aksesoris/topi">Topi</NavDropdown.Item>
+                        <NavDropdown.Item className="dropdown-item" href="/aksesoris/scraves">Scarves</NavDropdown.Item>
+                        <NavDropdown.Item className="dropdown-item" href="/aksesoris/kacamata">Kaca Mata</NavDropdown.Item>
+                        <NavDropdown.Item className="dropdown-item" href="/aksesoris/jam">Jam Tangan</NavDropdown.Item>
+                    </NavDropdown> */}
+                    <NavLink href="/aksesoris">Aksesoris</NavLink>
                     <NavLink href="/promo">Promo</NavLink>
                     <NavLink href="/about">About Us</NavLink>
                     </Nav>

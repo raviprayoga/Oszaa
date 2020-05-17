@@ -90,7 +90,7 @@ class HomePage extends React.Component {
                 </Row>
                 </Container>
                 <a href="/katalog" className="btn-swall">Lihat Semua Produk</a>
-                <h1 className="judul-kategori-home judul-aksesoris-home">Aksesoris</h1>
+                <h1 className="judul-kategori-home judul-aksesoris-home"><a href="/aksesoris">Aksesoris</a></h1>
                 <Row>
                     <Col >
                     <CardGroup>

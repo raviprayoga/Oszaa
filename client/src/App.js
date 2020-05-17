@@ -32,7 +32,7 @@ import Regis from "./components/auth/Regis";
 import KatalogPriaPage from "./components/viewsUser/KatalogPriaPage.js";
 import KatalogWanitaPage from "./components/viewsUser/KatalogWanitaPage.js";
 import KatalogIn from "./components/viewsUser/KatalogIn.js";
-
+import AksesorisPage from "./components/viewsUser/AksesorisPage.js";
 
 function App() { 
   library.add(faMapMarkerAlt, 
@@ -62,6 +62,7 @@ function App() {
         <Route exact path="/katalog/pria" component={KatalogPriaPage} />
         <Route exact path="/katalog/wanita" component={KatalogWanitaPage} />
         <Route exact path="/katalog/detail" component={KatalogIn} />
+        <Route exact path="/aksesoris" component={AksesorisPage} />
       </Switch>
       <Footer />
     </Suspense>
