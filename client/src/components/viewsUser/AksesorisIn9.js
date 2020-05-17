@@ -10,23 +10,23 @@ class KatalogIn extends React.Component{
             <Container className="detail-katalog">
                 <Row>
                     <Col sm="4">
-                    <img className="w-100" src="/images/sepatu1.jpg" />
+                    <img className="w-100" src="/images/tas5.jpg" />
                     <div className="rincian">
                     </div>
                     </Col>
                     <Col>
                     <div className="desc-katalog">
-                        <h1>Spt Cv</h1>
+                        <h1>J Ghn</h1>
                         <div className="icon-star">
                         <FontAwesomeIcon icon="star" size="sm" className="checked"/>
                         <FontAwesomeIcon icon="star" size="sm" className="checked"/>
-                        <FontAwesomeIcon icon="star" size="sm" className="checked"/>
-                        <FontAwesomeIcon icon="star" size="sm" className="checked"/>
-                        <FontAwesomeIcon icon="star" size="sm" className="checked"/>
+                        <FontAwesomeIcon icon="star" size="sm"/>
+                        <FontAwesomeIcon icon="star" size="sm"/>
+                        <FontAwesomeIcon icon="star" size="sm"/>
                         </div>
-                        <h5>Deskripsi Sepatu</h5>
-                        <h3 className="harga">Rp. 335.000</h3>
-                        <p style={{textAlign:"left"}}>Stok Tersedia: 37</p>
+                        <h5>Deskripsi Tas</h5>
+                        <h3 className="harga">Rp. 165.000</h3>
+                        <p style={{textAlign:"left"}}>Stok Tersedia: 17</p>
                         <div className="warna">
                             <p>Warna Tersedia: </p>
                             <div className="warna-item black"> </div>

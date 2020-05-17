@@ -43,7 +43,15 @@ import KatalogIn9 from "./components/viewsUser/KatalogIn9.js";
 import KatalogIn10 from "./components/viewsUser/KatalogIn10.js";
 import KatalogIn11 from "./components/viewsUser/KatalogIn11.js";
 import AksesorisPage from "./components/viewsUser/AksesorisPage.js";
-import AksesorisIn from "./components/viewsUser/AksesorisIn.js";
+import AksesorisIn1 from "./components/viewsUser/AksesorisIn1.js";
+import AksesorisIn2 from "./components/viewsUser/AksesorisIn2.js";
+import AksesorisIn3 from "./components/viewsUser/AksesorisIn3.js";
+import AksesorisIn4 from "./components/viewsUser/AksesorisIn4.js";
+import AksesorisIn5 from "./components/viewsUser/AksesorisIn5.js";
+import AksesorisIn6 from "./components/viewsUser/AksesorisIn6.js";
+import AksesorisIn7 from "./components/viewsUser/AksesorisIn7.js";
+import AksesorisIn8 from "./components/viewsUser/AksesorisIn8.js";
+import AksesorisIn9 from "./components/viewsUser/AksesorisIn9.js";
 import Cekout from "./components/viewsUser/cekout";
 import Cekout2 from "./components/viewsUser/cekout2";
 import Cekout3 from "./components/viewsUser/cekout3";
@@ -88,7 +96,15 @@ function App() {
         <Route exact path="/katalog/detail/10" component={KatalogIn10} />
         <Route exact path="/katalog/detail/11" component={KatalogIn11} />
         <Route exact path="/aksesoris" component={AksesorisPage} />
-        <Route exact path="/aksesoris/detail" component={AksesorisIn} />
+        <Route exact path="/aksesoris/detail/1" component={AksesorisIn1} />
+        <Route exact path="/aksesoris/detail/2" component={AksesorisIn2} />
+        <Route exact path="/aksesoris/detail/3" component={AksesorisIn3} />
+        <Route exact path="/aksesoris/detail/4" component={AksesorisIn4} />
+        <Route exact path="/aksesoris/detail/5" component={AksesorisIn5} />
+        <Route exact path="/aksesoris/detail/6" component={AksesorisIn6} />
+        <Route exact path="/aksesoris/detail/7" component={AksesorisIn7} />
+        <Route exact path="/aksesoris/detail/8" component={AksesorisIn8} />
+        <Route exact path="/aksesoris/detail/9" component={AksesorisIn9} />
         <Route exact path="/keranjang/cekout" component ={Cekout} />
         <Route exact path="/keranjang/cekout2" component ={Cekout2} />
         <Route exact path="/keranjang/cekout3" component ={Cekout3} />

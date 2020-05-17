@@ -4,28 +4,28 @@ import {Button} from 'reactstrap';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import{Link} from 'react-router-dom';
 
-class KatalogIn3 extends React.Component{
+class KatalogIn extends React.Component{
     render(){
         return(
             <Container className="detail-katalog">
                 <Row>
                     <Col sm="4">
-                    <img className="w-100" src="/images/kacamata1.jpg" />
+                    <img className="w-100" src="/images/tas1.jpg" />
                     <div className="rincian">
                     </div>
                     </Col>
                     <Col>
                     <div className="desc-katalog">
-                        <h1>Km Gbn</h1>
+                        <h1>Tas h</h1>
                         <div className="icon-star">
                         <FontAwesomeIcon icon="star" size="sm" className="checked"/>
                         <FontAwesomeIcon icon="star" size="sm" className="checked"/>
                         <FontAwesomeIcon icon="star" size="sm" className="checked"/>
                         <FontAwesomeIcon icon="star" size="sm" className="checked"/>
-                        <FontAwesomeIcon icon="star" size="sm" className="checked"/>
+                        <FontAwesomeIcon icon="star" size="sm" />
                         </div>
-                        <h5>Kacamata dengan frame elastis</h5>
-                        <h3 className="harga">Rp. 150.000</h3>
+                        <h5>Deskripsi Tas</h5>
+                        <h3 className="harga">Rp. 135.000</h3>
                         <p style={{textAlign:"left"}}>Stok Tersedia: 17</p>
                         <div className="warna">
                             <p>Warna Tersedia: </p>
@@ -54,4 +54,4 @@ class KatalogIn3 extends React.Component{
         )
     }
 }
-export default KatalogIn3;
+export default KatalogIn;
