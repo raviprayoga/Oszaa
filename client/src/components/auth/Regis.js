@@ -43,66 +43,70 @@ class Regis extends React.Component {
               <Container fluid>
                 <Row>
                 <div className="box-form">
-                    
-                <div className="form" noValidate onSubmit={this.onSubmit}>
-                <h3>Sign Up   </h3>
-                    <Form.Row>
-                        <Form.Group as={Col} controlId="formGridEmail">
-                        <Form.Label>Name</Form.Label>
-                        <Form.Control 
-                            onChange = {this.onChange}
-                            value={this.state.name}
-                            error={errors.name}
-                            id="name"
-                            type="text" 
-                            placeholder="Enter youre name"
-                         />
-                        </Form.Group>
+                    <div noValidate onSubmit={this.onSubmit} className="form">
+                        <h3>Regis</h3>
 
-                        <Form.Group as={Col} controlId="formGridEmail">
-                        <Form.Label>Email</Form.Label>
-                        <Form.Control 
-                            onChange = {this.onChange}
-                            value={this.state.email}
-                            error={errors.email}
-                            id="email"
-                            type="email" 
-                            placeholder="Enter youre email"
-                         />
-                        </Form.Group>
+                        <div className="form-group">
+                            <label>Name</label>
+                            <input 
+                             onChange={this.onChange}
+                             value={this.state.name}
+                             error={errors.name}
+                             id="name" 
+                             type="name"
+                             className="form-control" 
+                             placeholder="Enter name" 
+                            />
+                        </div>
 
-                        <Form.Group as={Col} controlId="formGridPassword">
-                        <Form.Label>Password</Form.Label>
-                        <Form.Control 
-                            onChange = {this.onChange}
-                            value={this.state.password}
-                            error={errors.password}
-                            id="password"
-                            type="password" 
-                            placeholder="password"
-                         />
-                        </Form.Group>
+                        <div className="form-group">
+                            <label>Email address</label>
+                            <input 
+                             onChange={this.onChange}
+                             value={this.state.email}
+                             error={errors.email}
+                             id="email" 
+                             type="email"
+                             className="form-control" 
+                             placeholder="Enter email" 
+                            />
+                        </div>
 
-                        <Form.Group as={Col} controlId="formGridPassword">
-                        <Form.Label>Password</Form.Label>
-                        <Form.Control 
-                            onChange = {this.onChange}
-                            value={this.state.password2}
-                            error={errors.password2}
-                            id="password2"
-                            type="password" 
-                            placeholder="password"
-                         />
-                        </Form.Group>
-                    </Form.Row>
+                        <div className="form-group">
+                            <label>Password</label>
+                            <input 
+                             onChange={this.onChange}
+                             value={this.state.password}
+                             error={errors.password}
+                             id="password" 
+                             type="password"
+                             className="form-control" 
+                             placeholder="Enter password" 
+                            />
+                        </div>
 
-                    <Button variant="primary" type="submit" >
-                        Submit
-                    </Button>
-                    <p className="log">
-                                <a href="/login" style={{fontWeight:'bold'}}>Login</a> 
+                        <div className="form-group">
+                            <label>Password</label>
+                            <input 
+                             onChange={this.onChange}
+                             value={this.state.password2}
+                             error={errors.password2}
+                             id="password2" 
+                             type="password2"
+                             className="form-control" 
+                             placeholder="Enter password2" 
+                            />
+                        </div>
+
+
+                        <button type="submit" className="btn btn-primary center-block"  >Regis</button>
+                        
+                        <p className="forgot-password text-center">
+                                {/* <a href="/lupa-pass" style={{fontWeight:'bold'}}>Forget password?</a>  */}
+                                <a href="/login" style={{fontWeight:'bold'}}>Login</a>
                         </p>
-                </div>
+                        <br></br>
+                    </div>
                 </div>
                 </Row>
             </Container>

@@ -34,6 +34,7 @@ import KatalogWanitaPage from "./components/viewsUser/KatalogWanitaPage.js";
 import KatalogIn from "./components/viewsUser/KatalogIn.js";
 import AksesorisPage from "./components/viewsUser/AksesorisPage.js";
 import AksesorisIn from "./components/viewsUser/AksesorisIn.js";
+import Cekout from "./components/viewsUser/cekout";
 
 function App() { 
   library.add(faMapMarkerAlt, 
@@ -65,6 +66,7 @@ function App() {
         <Route exact path="/katalog/detail" component={KatalogIn} />
         <Route exact path="/aksesoris" component={AksesorisPage} />
         <Route exact path="/aksesoris/detail" component={AksesorisIn} />
+        <Route exact path="/keranjang/cekout" component ={Cekout} />
       </Switch>
       <Footer />
     </Suspense>
