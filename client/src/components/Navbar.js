@@ -48,7 +48,7 @@ class AppNavbar extends Component{
                         </InputGroup.Text>
                         </InputGroup.Append>
                     </InputGroup>
-                    <a className="icon-nav login-nav" href="/login"><FontAwesomeIcon icon="user" size="lg" title="Login"/></a>
+                    <a className="icon-nav login-nav" href="/ulogin"><FontAwesomeIcon icon="user" size="lg" title="Login"/></a>
                     <a className="icon-nav cart-nav" href="/login"><FontAwesomeIcon icon="shopping-cart" size="lg" title="Cart"/></a>
                 </Navbar.Collapse>
             </Navbar>

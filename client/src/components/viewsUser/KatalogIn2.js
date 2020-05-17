@@ -69,10 +69,10 @@ class KatalogIn extends React.Component{
                             <Button className="ukuran-item">XS</Button>
                         </div>
                         <div className="add-cart">
-                            <Link to ="/login">
+                            <Link to ="/keranjang/cekout2">
                             <Button>Beli Sekarang</Button>
                             </Link>
-                            <Link to = "/login">
+                            <Link to = "/keranjang/cekout2">
                             <Button>Masukkan Keranjang</Button>
                             </Link>
                         </div>
