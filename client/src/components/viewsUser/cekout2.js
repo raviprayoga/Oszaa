@@ -5,19 +5,19 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {Link} from 'react-router-dom';
 
 
-class Cekout extends React.Component{
+class Cekout2 extends React.Component{
     render(){
         return(
             <Container className="detail-katalog">
                 <Row>
                     <Col sm="4">
-                    <img className="w-100" src="/images/katalog12.jpg" />
+                    <img className="w-100" src="/images/katalog15.jpg" />
                     <div className="rincian">
                         <Accordion>
                         <Card className="title">
                             <Card.Title>
                                 <Accordion.Toggle className="rincian-custom" variant="link" eventKey="1">
-                                <p className="small">Rp 155.000</p>
+                                <p className="small">Rp 150.000</p>
                                 </Accordion.Toggle>
                             </Card.Title>
                             <Accordion.Collapse eventKey="1">
@@ -98,4 +98,4 @@ class Cekout extends React.Component{
         )
     }
 }
-export default Cekout;
+export default Cekout2;
