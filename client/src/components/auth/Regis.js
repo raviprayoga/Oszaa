@@ -46,7 +46,7 @@ class Regis extends React.Component {
                     
                 <div className="form" noValidate onSubmit={this.onSubmit}>
                 <h3>Sign Up   </h3>
-                    <Form.Row>
+                    <Form>
                         <Form.Group as={Col} controlId="formGridEmail">
                         <Form.Label>Name</Form.Label>
                         <Form.Control 
@@ -94,7 +94,7 @@ class Regis extends React.Component {
                             placeholder="password"
                          />
                         </Form.Group>
-                    </Form.Row>
+                    </Form>
 
                     <Button variant="primary" type="submit" >
                         Submit
