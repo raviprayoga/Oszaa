@@ -351,6 +351,10 @@ body{
     font-weight: 50px;
     letter-spacing: 1rem;
 }
+.kategori-card-body a,
+.kategori-card-body a:hover{
+    color: black;
+}
 .kategori-card1, .kategori-card2{
     border: none;
 }

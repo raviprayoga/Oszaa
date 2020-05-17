@@ -57,34 +57,42 @@ class HomePage extends React.Component {
                 <Row className="produk-home">
                     <Col >
                     <Card className="kategori-card">
-                    <Card.Img variant="top" src="./images/katalog1.jpg" />
+                    <a href="/katalog/detail/1">
+                    <Card.Img variant="top" src="./images/katalog12.jpg" />
                     <Card.Body className="kategori-card-body">
-                        <Card.Title><h1><a href="/katalog/wanita">Dress</a></h1></Card.Title>
+                        <Card.Title><h1><a href="/katalog/detail">Blu Swe</a></h1></Card.Title>
                     </Card.Body>
+                    </a>
                     </Card>
                     </Col>
                     <Col >
                     <Card className="kategori-card">
-                    <Card.Img variant="top" src="./images/katalog2.jpg" />
+                    <a href="/katalog/detail/2">
+                    <Card.Img variant="top" src="./images/katalog15.jpg" />
                     <Card.Body className="kategori-card-body">
-                        <Card.Title><h1><a href="/katalog">Jeans</a></h1></Card.Title>
+                        <Card.Title><h1><a href="/katalog">Pe Kaos</a></h1></Card.Title>
                     </Card.Body>
+                    </a>
                     </Card>
                     </Col>
                     <Col >
                     <Card className="kategori-card">
+                    <a href="/katalog/detail/3">
                     <Card.Img variant="top" src="./images/katalog3.jpg" />
                     <Card.Body className="kategori-card-body">
                         <Card.Title><h1><a href="/katalog/wanita">Kaos</a></h1></Card.Title>
                     </Card.Body>
+                    </a>
                     </Card>
                     </Col>
                     <Col >
                     <Card className="kategori-card">
+                    <a href="/katalog/detail/4">
                     <Card.Img variant="top" src="./images/katalog4.jpg" />
                     <Card.Body className="kategori-card-body">
                         <Card.Title><h1><a href="/katalog/pria">Jaket</a></h1></Card.Title>
                     </Card.Body>
+                    </a>
                     </Card>
                     </Col>
                 </Row>
@@ -95,20 +103,28 @@ class HomePage extends React.Component {
                     <Col >
                     <CardGroup>
                     <Card className="kategori-card1">
+                    <a href="/katalog/detail">
                     <Card.Img variant="left" src="./images/sepatu1.jpg" />
+                    </a>
                     </Card>
                     <Card className="kategori-card1">
+                    <a href="/katalog/detail">
                     <Card.Body className="kategori-card-body1 sepatu-home">
                         <Card.Title><h1 className="aksesoris-home">Sepatu</h1></Card.Title>
                     </Card.Body>
+                    </a>
                     </Card>
                     <Card className="kategori-card1">
+                    <a href="/katalog/detail">
                     <Card.Img variant="left" src="./images/kacamata1.jpg" />
+                    </a>
                     </Card>
                     <Card className="kategori-card1">
+                    <a href="/katalog/detail">
                     <Card.Body className="kategori-card-body1 km-home">
                         <Card.Title><h1 className="aksesoris-home">Kaca Mata</h1></Card.Title>
                     </Card.Body>
+                    </a>
                     </Card>
                     </CardGroup>
                     </Col>                 
@@ -117,20 +133,28 @@ class HomePage extends React.Component {
                     <Col >
                     <CardGroup>
                     <Card className="kategori-card2">
+                    <a href="/katalog/detail">
                     <Card.Body className="kategori-card-body2 tas-home">
                         <Card.Title><h1 className="aksesoris-home">Tas Wanita</h1></Card.Title>
                     </Card.Body>
+                    </a>
                     </Card>
                     <Card className="kategori-card2">
+                    <a href="/katalog/detail">
                     <Card.Img variant="left" src="./images/tas1.jpg" />
+                    </a>
                     </Card>
                     <Card className="kategori-card2">
+                    <a href="/katalog/detail">
                     <Card.Body className="kategori-card-body2 topi-home">
                         <Card.Title><h1 className="aksesoris-home">Topi</h1></Card.Title>
                     </Card.Body>
+                    </a>
                     </Card>
                     <Card className="kategori-card2">
+                    <a href="/katalog/detail">
                     <Card.Img variant="left" src="./images/topi1.jpg" />
+                    </a>
                     </Card>
                     </CardGroup>
                     </Col>   

@@ -91,7 +91,7 @@ class KatalogPage extends React.Component{
                                     <CardImg top width="100%" src="/images/sepatu1.jpg" className="img-katalog"/>
                                     <CardBody className="text-katalog">
                                         <Col sm="7" className="nama">
-                                        <CardTitle className="title">Sepatu Cv
+                                        <CardTitle className="title">Spt Cv
                                         <FontAwesomeIcon icon="star" size="sm" className="checked icon-star"/>
                                         <FontAwesomeIcon icon="star" size="sm" className="checked"/>
                                         <FontAwesomeIcon icon="star" size="sm" className="checked"/>
