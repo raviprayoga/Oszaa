@@ -3,7 +3,6 @@ import { Route, Switch } from "react-router-dom";
 import Dashboard from "./components/viewAdmin/dashboard";
 import LoginAdmin from './components/viewAdmin/LoginAdmin';
 import User from './components/viewAdmin/Data_user';
-import KatalogIn from "./components/viewsUser/KatalogIn.js";
 
 
 function AppAdmin() { 
