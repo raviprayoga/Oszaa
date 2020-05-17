@@ -12,7 +12,7 @@ function AppAdmin() {
             <Suspense fallback={(<div>Loading...</div>)}>
                 <Switch>
                 <Route exact path="/dashboard" component={Dashboard} />
-                <Route exact path="/adminlogin" component={LoginAdmin}/>
+                <Route exact path="/ulogin" component={LoginAdmin}/>
                 <Route exact path="/user" component={User} />
                 </Switch>
             </Suspense>

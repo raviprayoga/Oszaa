@@ -64,9 +64,9 @@ class Login extends React.Component {
                             />
                         </div>
 
-
+                        <Link to ="/keranjang/cekout">
                         <button type="submit" className="btn btn-primary center-block"  >Login</button>
-                        
+                        </Link>
                         <p className="forgot-password text-center">
                                 {/* <a href="/lupa-pass" style={{fontWeight:'bold'}}>Forget password?</a>  */}
                                 <a href="/regis" style={{fontWeight:'bold'}}>Create acount</a>
