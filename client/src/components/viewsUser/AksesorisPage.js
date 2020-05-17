@@ -48,6 +48,7 @@ class KatalogPage extends React.Component{
                             </Col>
                             <Col md>
                                 <Card>
+                                    <a href="/aksesoris/detail/2">
                                     <CardImg top width="100%" src="/images/kacamata2.jpg" className="img-katalog"/>
                                     <CardBody className="text-katalog">
                                         <Col sm="7" className="nama">
@@ -63,10 +64,12 @@ class KatalogPage extends React.Component{
                                         <CardTitle className="harga">Rp. 135.000,-</CardTitle>
                                         </Col>
                                     </CardBody>
+                                    </a>
                                 </Card>
                             </Col>
                             <Col md>
                                 <Card>
+                                    <a href="/aksesoris/detail/3">
                                     <CardImg top width="100%" src="/images/kacamata3.jpg" className="img-katalog"/>
                                     <CardBody className="text-katalog">
                                         <Col sm="7" className="nama">
@@ -82,12 +85,14 @@ class KatalogPage extends React.Component{
                                         <CardTitle className="harga">Rp. 150.000,-</CardTitle>
                                         </Col>
                                     </CardBody>
+                                    </a>
                                 </Card>
                             </Col>
                         </Row>
                         <Row className="list-katalog">
                             <Col md>
                                 <Card>
+                                    <a href="/aksesoris/detail/4">
                                     <CardImg top width="100%" src="/images/sepatu1.jpg" className="img-katalog"/>
                                     <CardBody className="text-katalog">
                                         <Col sm="7" className="nama">
@@ -103,10 +108,12 @@ class KatalogPage extends React.Component{
                                         <CardTitle className="harga">Rp. 335.000,-</CardTitle>
                                         </Col>
                                     </CardBody>
+                                    </a>
                                 </Card>
                             </Col>
                             <Col md>
                                 <Card>
+                                    <a href="/aksesoris/detail/5">
                                     <CardImg top width="100%" src="/images/tas1.jpg" className="img-katalog"/>
                                     <CardBody className="text-katalog">
                                         <Col sm="7" className="nama">
@@ -122,10 +129,12 @@ class KatalogPage extends React.Component{
                                         <CardTitle className="harga">Rp. 195.000,-</CardTitle>
                                         </Col>
                                     </CardBody>
+                                    </a>
                                 </Card>
                             </Col>
                             <Col md>
                                 <Card>
+                                    <a href="/aksesoris/detail/6">
                                     <CardImg top width="100%" src="/images/tas2.jpg" className="img-katalog"/>
                                     <CardBody className="text-katalog">
                                         <Col sm="7" className="nama">
@@ -141,12 +150,14 @@ class KatalogPage extends React.Component{
                                         <CardTitle className="harga">Rp. 170.000,-</CardTitle>
                                         </Col>
                                     </CardBody>
+                                    </a>
                                 </Card>
                             </Col>
                         </Row>
                         <Row className="list-katalog">
                             <Col md>
                                 <Card>
+                                    <a href="/aksesoris/detail/7">
                                     <CardImg top width="100%" src="/images/tas3.jpg" className="img-katalog"/>
                                     <CardBody className="text-katalog">
                                         <Col sm="7" className="nama">
@@ -162,10 +173,12 @@ class KatalogPage extends React.Component{
                                         <CardTitle className="harga">Rp. 135.000,-</CardTitle>
                                         </Col>
                                     </CardBody>
+                                    </a>
                                 </Card>
                             </Col>
                             <Col md>
                                 <Card>
+                                    <a href="/aksesoris/detail/8">
                                     <CardImg top width="100%" src="/images/tas4.jpg" className="img-katalog"/>
                                     <CardBody className="text-katalog">
                                         <Col sm="7" className="nama">
@@ -181,10 +194,12 @@ class KatalogPage extends React.Component{
                                         <CardTitle className="harga">Rp. 135.000,-</CardTitle>
                                         </Col>
                                     </CardBody>
+                                    </a>
                                 </Card>
                             </Col>
                             <Col md>
                                 <Card>
+                                    <a href="/aksesoris/detail/9">
                                     <CardImg top width="100%" src="/images/tas5.jpg" className="img-katalog"/>
                                     <CardBody className="text-katalog">
                                         <Col sm="7" className="nama">
@@ -200,6 +215,7 @@ class KatalogPage extends React.Component{
                                         <CardTitle className="harga">Rp. 165.000,-</CardTitle>
                                         </Col>
                                     </CardBody>
+                                    </a>
                                 </Card>
                             </Col>
                         </Row>
