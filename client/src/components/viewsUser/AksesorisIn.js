@@ -2,6 +2,7 @@ import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
 import {Button} from 'reactstrap';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import{Link} from 'react-router-dom';
 
 class KatalogIn extends React.Component{
     render(){
@@ -39,8 +40,12 @@ class KatalogIn extends React.Component{
                             <Button className="ukuran-item">45</Button>
                         </div>
                         <div className="add-cart">
+                            <Link to = "/login">
                             <Button>Beli Sekarang</Button>
+                            </Link>
+                            <Link to = "/login">
                             <Button>Masukkan Keranjang</Button>
+                            </Link>
                         </div>
                     </div>
                     </Col>
