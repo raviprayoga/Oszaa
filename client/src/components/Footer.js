@@ -68,7 +68,7 @@ class Footer extends React.Component {
                         <a href="/katalog/wanita">Katalog Wanita</a>
                     </li>
                     <li className="list-unstyled">
-                        <a href="#!">Aksesoris</a>
+                        <a href="/aksesoris">Aksesoris</a>
                     </li>
                     </ul>
                     </Col>
