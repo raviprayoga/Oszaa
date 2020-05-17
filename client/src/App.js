@@ -35,6 +35,13 @@ import KatalogIn1 from "./components/viewsUser/KatalogIn1.js";
 import KatalogIn2 from "./components/viewsUser/KatalogIn2.js";
 import KatalogIn3 from "./components/viewsUser/KatalogIn3.js";
 import KatalogIn4 from "./components/viewsUser/KatalogIn4.js";
+import KatalogIn5 from "./components/viewsUser/KatalogIn5.js";
+import KatalogIn6 from "./components/viewsUser/KatalogIn6.js";
+import KatalogIn7 from "./components/viewsUser/KatalogIn7.js";
+import KatalogIn8 from "./components/viewsUser/KatalogIn8.js";
+import KatalogIn9 from "./components/viewsUser/KatalogIn9.js";
+import KatalogIn10 from "./components/viewsUser/KatalogIn10.js";
+import KatalogIn11 from "./components/viewsUser/KatalogIn11.js";
 import AksesorisPage from "./components/viewsUser/AksesorisPage.js";
 import AksesorisIn from "./components/viewsUser/AksesorisIn.js";
 import Cekout from "./components/viewsUser/cekout";
@@ -70,6 +77,13 @@ function App() {
         <Route exact path="/katalog/detail/2" component={KatalogIn2} />
         <Route exact path="/katalog/detail/3" component={KatalogIn3} />
         <Route exact path="/katalog/detail/4" component={KatalogIn4} />
+        <Route exact path="/katalog/detail/5" component={KatalogIn5} />
+        <Route exact path="/katalog/detail/6" component={KatalogIn6} />
+        <Route exact path="/katalog/detail/7" component={KatalogIn7} />
+        <Route exact path="/katalog/detail/8" component={KatalogIn8} />
+        <Route exact path="/katalog/detail/9" component={KatalogIn9} />
+        <Route exact path="/katalog/detail/10" component={KatalogIn10} />
+        <Route exact path="/katalog/detail/11" component={KatalogIn11} />
         <Route exact path="/aksesoris" component={AksesorisPage} />
         <Route exact path="/aksesoris/detail" component={AksesorisIn} />
         <Route exact path="/keranjang/cekout" component ={Cekout} />
