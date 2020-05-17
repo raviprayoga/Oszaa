@@ -70,6 +70,7 @@ class KatalogPriaPage extends React.Component{
                             </Col>
                             <Col md>
                                 <Card>
+                                    <a href="/katalog/detail/6">
                                     <CardImg top width="100%" src="/images/katalog13.jpg" className="img-katalog"/>
                                     <CardBody className="text-katalog">
                                         <Col sm="7" className="nama">
@@ -85,12 +86,14 @@ class KatalogPriaPage extends React.Component{
                                         <CardTitle className="harga">Rp. 170.000,-</CardTitle>
                                         </Col>
                                     </CardBody>
+                                    </a>
                                 </Card>
                             </Col>
                         </Row>
                         <Row className="list-katalog">
                             <Col md>
                                 <Card>
+                                    <a href="/katalog/detail/8">
                                     <CardImg top width="100%" src="/images/katalog16.jpg" className="img-katalog"/>
                                     <CardBody className="text-katalog">
                                         <Col sm="7" className="nama">
@@ -106,10 +109,12 @@ class KatalogPriaPage extends React.Component{
                                         <CardTitle className="harga">Rp. 135.000,-</CardTitle>
                                         </Col>
                                     </CardBody>
+                                    </a>
                                 </Card>
                             </Col>
                             <Col md>
                                 <Card>
+                                    <a href="/katalog/detail/11">
                                     <CardImg top width="100%" src="/images/katalog17.jpg" className="img-katalog"/>
                                     <CardBody className="text-katalog">
                                         <Col sm="7" className="nama">
@@ -125,6 +130,7 @@ class KatalogPriaPage extends React.Component{
                                         <CardTitle className="harga">Rp. 70.000,-</CardTitle>
                                         </Col>
                                     </CardBody>
+                                    </a>
                                 </Card>
                             </Col>
                             <Col md></Col>
