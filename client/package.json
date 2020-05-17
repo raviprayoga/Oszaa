@@ -69,6 +69,11 @@
   "proxy": "http://localhost:5000",
   "devDependencies": {
     "file-loader": "^6.0.0",
+    "nodemon": "^2.0.4",
     "url-loader": "^4.1.0"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }

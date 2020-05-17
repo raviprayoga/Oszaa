@@ -31,7 +31,10 @@ import Login from "./components/auth/Login";
 import Regis from "./components/auth/Regis";
 import KatalogPriaPage from "./components/viewsUser/KatalogPriaPage.js";
 import KatalogWanitaPage from "./components/viewsUser/KatalogWanitaPage.js";
-import KatalogIn from "./components/viewsUser/KatalogIn.js";
+import KatalogIn1 from "./components/viewsUser/KatalogIn1.js";
+import KatalogIn2 from "./components/viewsUser/KatalogIn2.js";
+import KatalogIn3 from "./components/viewsUser/KatalogIn3.js";
+import KatalogIn4 from "./components/viewsUser/KatalogIn4.js";
 import AksesorisPage from "./components/viewsUser/AksesorisPage.js";
 import AksesorisIn from "./components/viewsUser/AksesorisIn.js";
 import Cekout from "./components/viewsUser/cekout";
@@ -63,7 +66,10 @@ function App() {
         <Route exact path="/regis" component={Regis} />
         <Route exact path="/katalog/pria" component={KatalogPriaPage} />
         <Route exact path="/katalog/wanita" component={KatalogWanitaPage} />
-        <Route exact path="/katalog/detail" component={KatalogIn} />
+        <Route exact path="/katalog/detail/1" component={KatalogIn1} />
+        <Route exact path="/katalog/detail/2" component={KatalogIn2} />
+        <Route exact path="/katalog/detail/3" component={KatalogIn3} />
+        <Route exact path="/katalog/detail/4" component={KatalogIn4} />
         <Route exact path="/aksesoris" component={AksesorisPage} />
         <Route exact path="/aksesoris/detail" component={AksesorisIn} />
         <Route exact path="/keranjang/cekout" component ={Cekout} />
